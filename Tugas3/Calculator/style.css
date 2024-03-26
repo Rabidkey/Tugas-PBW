@@ -1,0 +1,66 @@
+body{
+    font-family: "Noto Sans Math", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 20px;
+    background-color: rgb(225, 239, 247);
+}
+  
+  .judul{
+    font-family: "STIX Two Text", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    margin-top: 100px;
+    text-shadow: 2px 2px 5px #42ddaf;
+}
+
+  input[type="number"] {
+    font-family: "Noto Sans Math", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    margin: 5px;
+    border: 0px;
+    border-radius: 5px;
+  }
+  
+  select {
+    font-family: "Noto Sans Math", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 75px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: start;
+  }
+  
+  button {
+    font-family: "Noto Sans Math", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #20c997;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+  button:hover {
+    background-color: #7072ff;
+}
+  
+  #hasil {
+    font-family: "STIX Two Text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin: 10px;
+  }
