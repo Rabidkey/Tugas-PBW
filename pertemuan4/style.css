@@ -1,0 +1,76 @@
+.navbar-brand {
+    margin-left: 40px;
+    color: rgb(9, 255, 0);
+    font-size: 30px;
+    font-family: "Prata", sans-serif;
+  }
+
+  .navbar-brand:hover{
+    color: rgb(9, 255, 21);
+  }
+
+  .navbar-nav {
+    margin-right: 40px;
+  }
+  
+  .logo {
+    width: 50px;
+    padding-bottom: 10px;
+  }
+
+  .nav-link{
+    color: rgb(0, 0, 0);
+    font-family: "Prata", sans-serif;
+    font-size: 20px;
+  }
+
+  .nav-link:hover {   
+    color: rgb(9, 255, 0);
+  }
+
+  .nav-item {
+    margin-right: 10px;
+  }
+
+  .card {
+    margin: 20px;
+    margin-bottom: 50px;
+    display: inline-block;
+    align-items: center;
+    font-family: "Prata", sans-serif;
+  }
+
+  .container {
+    justify-content: center;
+    display: flex;
+  }
+
+  blockquote {
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 12px;
+  }
+  
+  .container-lg{
+    font-family: "Prata", sans-serif;
+  }
+
+  #Question {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .cont {
+    color: rgb(9, 255, 0);
+  }
+
+
+  .name {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 10px; 
+  }
+
+  .formm {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
