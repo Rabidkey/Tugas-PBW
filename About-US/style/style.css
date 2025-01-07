@@ -1,0 +1,297 @@
+/* General styles */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+.tagline {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+}
+
+.prolog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.prolog-image{
+    flex: 1;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.wrapper-kata-pengantar{
+    color: #fff;
+    background-color: maroon;
+    overflow: hidden;
+    flex: 1;
+    width: 600px;
+    height: 500px;
+    margin: 0px 25px;
+    border-radius: 10px;
+}
+
+.kata-pengantar{
+    margin: 0px 25px;
+}
+
+.mission-vision{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.mission-vision h2{
+    text-align: center;
+}
+
+.mission{
+    margin: 20px;
+    padding-right: 30px;
+    border-right-style: solid;
+    border-color: maroon;
+    border-width: 5px;
+}
+
+.mission-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.vision{
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.vision-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 67%;
+}
+
+.values{
+    text-align: center;
+    margin-top: 100px;
+    border-bottom-style: solid;
+    border-color: maroon;
+    border-width: 5px;
+    padding-bottom: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+  
+.grid-item {
+    background-color: rgb(230, 230, 230);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+  
+.grid-item i {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.to-contact-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.wrapper-to-contact{
+    color: #333;
+    overflow: hidden;
+    text-align: center;
+    flex: 1;
+    width: 600px;
+    height: 500px;
+    margin: 0px 25px;
+    border-radius: 10px;
+}
+
+.to-contact-image{
+    flex: 1;
+    width: 100%;
+    margin: auto;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: maroon;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  header {
+    background-color: maroon;
+    padding: 20px;
+    box-shadow: 0 2px 4px #fff(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  /* About Us section styles */
+  .about-us {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-us {
+      grid-template-columns: 1fr;
+    }
+  
+    .mission-vision, .values, .why-shop, .join-community {
+      grid-column: 1;
+    }
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 576px) {
+    .about-us h2 {
+      font-size: 20px;
+    }
+  
+    .about-us p {
+      font-size: 14px;
+    }
+  
+    .why-shop li, .join-community li {
+      margin-bottom: 5px;
+    }
+  
+    .join-community ul {
+      margin-top: 10px;
+    }
+  
+    .join-community li a {
+      padding: 3px 5px;
+      font-size: 12px;
+    }
+  }
+  
